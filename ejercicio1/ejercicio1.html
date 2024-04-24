@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cambiar imagen de fondo según la temperatura</title>
+  <style>
+    body {
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Selecciona una temperatura:</h1>
+  <input type="number" id="temperatura" onchange="cambiarImagen()">
+  <script>
+    function cambiarImagen(temperatura) {
+      const imagenes = {
+        "frio": url:("fondomain.jpg"),
+        "caliente": "https://www.ejemplo.com/imagen-caliente.jpg",
+        "templado": "https://www.ejemplo.com/imagen-templado.jpg"
+      };
+      const imagen = imagenes[temperatura];
+      document.body.style.backgroundImage = `url(${imagen})`;
+    }
+  </script>
+</body>
+</html>

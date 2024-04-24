@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agenda SYSTEM "ejercicio8.dtd">
+<agenda>
+    <contacto>
+    <nombre_apellidos>Francisco Ruiz González</nombre_apellidos>
+    <telefono>600222xxx</telefono>
+    <edad>39</edad>
+    <email>curro@gmail.com</email>
+    <direccion>
+    <calle>cómpeta 16</calle>
+    <cod_post>l2345</cod_post>
+    <provincia>Málaga</provincia>
+    </direccion>
+    </contacto>
+    <contacto>
+    <nombre_apellidos>Francisco Ruiz González</nombre_apellidos>
+    <telefono>600222xxx</telefono>
+    <edad>39</edad>
+    <email>curro@gmail.com</email> 
+    <direccion>
+    <calle>córnpeta 16</calle>
+    <cod_post>12345</cod_post>
+    <provincia>Málaga</provincia>
+    </direccion>
+    </contacto>
+    <contacto>
+    <nombre_apellidos>Pepe Escudero</nombre_apellidos>
+    <telefono>954122xxx</telefono>
+    <edad>25</edad>
+    <email>curro@gmail.com</email> 
+    <direccion>
+    <calle>cristo</calle>
+    <cod_post>29785</cod_post>
+    <provincia>Málaga</provincia>
+    </direccion>
+    </contacto>
+    <contacto>
+    <nombre_apellidos>Carrnen Ruiz García</nombre_apellidos>
+    <telefono>954122xxx</telefono>
+    <edad>18</edad>
+    <email>carrnen@grnail.com</email>
+    <direccion>
+    <calle>canalejas</calle>
+    <cod_post>25985</cod_post>
+    <provincia>Cádiz</provincia>
+    </direccion>
+    </contacto>
+    </agenda>

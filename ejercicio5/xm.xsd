@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name= "bdproductos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs= "unbounded" ref= "producto" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name= "producto">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref= "nombre " />
+                <xs:element ref= "código " />
+                <xs:element ref= "categoría " />
+                <xs:element ref= "iva " />
+                <xs:element ref= "precio " />
+                <xs:element ref= "descuento " />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name= "nombre " type= "xs:NCName " />
+    <xs:element name= "código" type= "String "/>
+    <xs:element name= "categoría " type= "Tcatl " />
+    <xs:element name= "iva " type= "xs:integer " />
+    <xs:element name= "precio " type= "Tdecimal " />
+    <xs:element name= "descuento " type= "Tdescuento " />
+    <xs:simpleType name= "Tdescuento ">
+        <xs:restriction base= "xs:integer ">
+            <xs:mininclusive value="0"/>
+            <xs:maxinclusive value= " lO " />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name= "Tdecimal "/>
+        <xs:restriction base= "xs:decirnal"/>
+            <xs:totalDigits value= " 4 " />
+            <xs:fractionDigits value= " 2 " />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name= "Tcat ">
+        <xs:restriction base= "xs:string">
+            <xs:enumeration value= "A" />
+            <xs:enumeration value= "B" />
+            <xs:enumeration value= "C" />
+            <xs:enumeration value= "D" />
+            <xs:enumeration value= "E" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="Tcatl">
+        <xs:restriction base= "xs:string">
+            <xs:pattern value= " [A-E] " />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name= "Tlongitud ">
+        <xs:restriction base= "xs:string">
+            <xs:length value= " 4 " />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name= "Tlongitudentre ">
+        <xs:restriction base= "xs:string">
+            <xs:minLength value="0"/>
+            <xs:maxLength value="4"/>
+        </xs:restriction>
+    </xs:simpleType>
+    </xs:xmlns>
+</xs:schema>

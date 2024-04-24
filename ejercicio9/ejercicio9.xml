@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="ejercicio1.xsl" type="text/xsl"?>
+<hello-world xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <yo>Juan Carlos Moreno</yo>
+    <saludo> !Hola Mundo! </saludo>
+</hello-world>

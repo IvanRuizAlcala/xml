@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE arbol SYSTEM "ejercicio2.dtd">
+    <arbol>
+        <especie>
+            <nombre>Manzano</nombre>
+            <variedad>Gala</variedad>
+            <origen>Asia Central</origen>
+            <color_fruto>Rojo y Amarillo</color_fruto>
+            <maduracion>Verano a Otoño</maduracion>
+            <riego>Regular</riego>
+
+         </especie>
+          <especie>
+          <nombre>Peral</nombre>
+            <variedad>Bartlett</variedad>
+            <origen>Europa y Asia occidental</origen>
+            <color_fruto>Verde</color_fruto>
+            <maduracion>Verano</maduracion>
+            <precio>1 </precio>
+        </especie>
+    </arbol>

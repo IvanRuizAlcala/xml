@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Definición del elemento nombre -->
+  <xs:element name="nombre">
+    <xs:complexType>
+      <!-- El elemento nombre no tiene contenido, por lo que se define como vacío -->
+      <xs:sequence/>
+      <!-- Definición del atributo dni -->
+      <xs:attribute name="dni" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
