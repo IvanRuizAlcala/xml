@@ -1,0 +1,16 @@
+<?xml version= "1.0" encoding= "utf-8"?>
+<?xml-stylesheet type="text/xsl" href="ejercicio16_profesor.xsl" ?>
+<MODULO>
+    <ASIGNATURAS>
+        <profesor>adelaida</profesor>
+    </ASIGNATURAS>
+    <ASIGNATURAS>
+        <profesor>ana</profesor>
+    </ASIGNATURAS>
+    <ASIGNATURAS>
+        <profesor>nieves</profesor>
+    </ASIGNATURAS>
+    <ASIGNATURAS>
+        <profesor>jose</profesor>
+    </ASIGNATURAS>
+</MODULO>

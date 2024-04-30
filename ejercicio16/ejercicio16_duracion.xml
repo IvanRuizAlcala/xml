@@ -1,0 +1,16 @@
+<?xml version= "1.0" encoding= "utf-8"?>
+<?xml-stylesheet type="text/xsl" href="ejercicio16_duracion.xsl" ?>
+<MODULO>
+    <ASIGNATURAS>
+        <duracion>20 horas</duracion>
+    </ASIGNATURAS>
+    <ASIGNATURAS>
+        <duracion>30 horas</duracion>
+    </ASIGNATURAS>
+    <ASIGNATURAS>
+        <duracion>40 horas</duracion>
+    </ASIGNATURAS>
+    <ASIGNATURAS>
+        <duracion>50 horas</duracion>
+    </ASIGNATURAS>
+</MODULO>

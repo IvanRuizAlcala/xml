@@ -1,0 +1,19 @@
+<?xml version= "1.0" encoding= "utf-8"?>
+<?xml-stylesheet type="text/xsl" href="ejercicio16_nombre.xsl" ?>
+<MODULO>
+    <ASIGNATURAS>
+        <NOMBRE>Programacion</NOMBRE>
+    </ASIGNATURAS>
+    <ASIGNATURAS>
+        <NOMBRE>Base de Datos</NOMBRE>
+    </ASIGNATURAS>
+    <ASIGNATURAS>
+        <NOMBRE>Lenguaje de marcas</NOMBRE>
+    </ASIGNATURAS>
+    <ASIGNATURAS>
+        <NOMBRE>Sistemas Informaticos</NOMBRE>
+    </ASIGNATURAS>
+    <ASIGNATURAS>
+        <NOMBRE>entorno</NOMBRE>
+    </ASIGNATURAS>
+</MODULO>
