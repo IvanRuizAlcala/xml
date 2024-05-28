@@ -1,0 +1,5 @@
+xquery version "3.1";
+for $x in doc("/db/coches.xml")/concesionario/coche
+where xs:decimal($x/precio) > 5000
+order by $x/modelo
+return <li>{data($x/modelo)}</li>
